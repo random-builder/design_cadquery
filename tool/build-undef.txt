@@ -1,0 +1,8 @@
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
+E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
