@@ -9,6 +9,6 @@ export PACKAGE_VERSION=TEST
 
 conda config --show channels
 
-conda build . -c dlr-sc --croot /tmp/cq_build
+conda build . -c conda-forge --croot /tmp/cq_build
 
 #conda build conda -c cadquery -c conda-forge --croot /tmp/cbld

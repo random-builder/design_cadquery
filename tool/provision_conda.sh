@@ -30,7 +30,8 @@ conda install -y -c conda-forge \
 	conda-verify \
 
 # cadquery deps
-conda install -y -c dlr-sc \
+conda install -y -c conda-forge \
+    occt \
     pythonocc-core=7.4.0 \
 
 conda config --show
