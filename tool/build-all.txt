@@ -1,12 +1,11 @@
 channels:
-  - conda-forge
   - defaults
 No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.11
 WARNING:conda_build.metadata:No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.11
-Adding in variants from internal_defaults
 INFO:conda_build.variants:Adding in variants from internal_defaults
-Adding in variants from /home/work/source/git/design_cadquery/conda_build_config.yaml
 INFO:conda_build.variants:Adding in variants from /home/work/source/git/design_cadquery/conda_build_config.yaml
+Adding in variants from internal_defaults
+Adding in variants from /home/work/source/git/design_cadquery/conda_build_config.yaml
 Attempting to finalize metadata for cadquery
 INFO:conda_build.metadata:Attempting to finalize metadata for cadquery
 Collecting package metadata (repodata.json): ...working... done
@@ -19,44 +18,42 @@ Solving environment: ...working... done
 
 ## Package Plan ##
 
-  environment location: /tmp/cq_build/cadquery_1584669204934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /tmp/cq_build/cadquery_1584718539456/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
 
-    _libgcc_mutex:    0.1-conda_forge           conda-forge
-    _openmp_mutex:    4.5-0_gnu                 conda-forge
-    ca-certificates:  2019.11.28-hecc5488_0     conda-forge
-    certifi:          2019.11.28-py37hc8dfbb8_1 conda-forge
-    ld_impl_linux-64: 2.34-h53a641e_0           conda-forge
-    libffi:           3.2.1-he1b5a44_1007       conda-forge
-    libgcc-ng:        9.2.0-h24d8f2e_2          conda-forge
-    libgomp:          9.2.0-h24d8f2e_2          conda-forge
-    libstdcxx-ng:     9.2.0-hdf63c60_2          conda-forge
-    ncurses:          6.1-hf484d3e_1002         conda-forge
-    openssl:          1.1.1e-h516909a_0         conda-forge
-    pip:              20.0.2-py_2               conda-forge
-    python:           3.7.6-h357f687_4_cpython  conda-forge
-    python_abi:       3.7-1_cp37m               conda-forge
-    readline:         8.0-hf8c457e_0            conda-forge
-    setuptools:       46.0.0-py37hc8dfbb8_2     conda-forge
-    sqlite:           3.30.1-hcee41ef_0         conda-forge
-    tk:               8.6.10-hed695b0_0         conda-forge
-    wheel:            0.34.2-py_1               conda-forge
-    xz:               5.2.4-h14c3975_1001       conda-forge
-    zlib:             1.2.11-h516909a_1006      conda-forge
+    _libgcc_mutex:    0.1-main               
+    ca-certificates:  2020.1.1-0             
+    certifi:          2019.11.28-py37_0      
+    ld_impl_linux-64: 2.33.1-h53a641e_7      
+    libedit:          3.1.20181209-hc058e9b_0
+    libffi:           3.2.1-hd88cf55_4       
+    libgcc-ng:        9.1.0-hdf63c60_0       
+    libstdcxx-ng:     9.1.0-hdf63c60_0       
+    ncurses:          6.2-he6710b0_0         
+    openssl:          1.1.1e-h7b6447c_0      
+    pip:              20.0.2-py37_1          
+    python:           3.7.6-h0371630_2       
+    readline:         7.0-h7b6447c_5         
+    setuptools:       46.0.0-py37_0          
+    sqlite:           3.31.1-h7b6447c_0      
+    tk:               8.6.8-hbc83047_0       
+    wheel:            0.34.2-py37_0          
+    xz:               5.2.4-h14c3975_4       
+    zlib:             1.2.11-h7b6447c_3      
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-/tmp/cq_build/cadquery_1584669204934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.7/site-packages/setuptools/dist.py:462: UserWarning: The version specified ('0.5-SNAPSHOT') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+/tmp/cq_build/cadquery_1584718539456/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.7/site-packages/setuptools/dist.py:462: UserWarning: The version specified ('0.5-SNAPSHOT') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
   "details." % self.metadata.version
 INFO:conda_build.build:Packaging cadquery
 INFO conda_build.build:build(2078): Packaging cadquery
-Copying /home/work/source/git/design_cadquery to /tmp/cq_build/cadquery_1584669204934/work/
-source tree in: /tmp/cq_build/cadquery_1584669204934/work
-export PREFIX=/tmp/cq_build/cadquery_1584669204934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/tmp/cq_build/cadquery_1584669204934/work
+Copying /home/work/source/git/design_cadquery to /tmp/cq_build/cadquery_1584718539456/work/
+source tree in: /tmp/cq_build/cadquery_1584718539456/work
+export PREFIX=/tmp/cq_build/cadquery_1584718539456/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/tmp/cq_build/cadquery_1584718539456/work
 running install
 running build
 running build_py
@@ -153,222 +150,61 @@ writing list of installed files to 'record.txt'
 
 Resource usage statistics from building cadquery:
    Process count: 1
-   CPU time: Sys=0:00:00.0, User=0:00:00.0
-   Memory: 3.5M
-   Disk usage: 10.7K
+   CPU time: unavailable
+   Memory: 3.4M
+   Disk usage: 10.8K
    Time elapsed: 0:00:02.1
 
 Packaging cadquery
 Packaging cadquery-TEST-py3.7
 INFO:conda_build.build:Packaging cadquery-TEST-py3.7
 INFO conda_build.build:bundle_conda(1392): Packaging cadquery-TEST-py3.7
+/tmp/tmpy332_ygy/cadquery-TEST-py3.7.tar.bz2: C1115 Found invalid license "None" in info/index.json
+INFO:conda_build.variants:Adding in variants from /tmp/tmp1waht2jg/info/recipe/conda_build_config.yaml
+INFO conda_build.variants:_combine_spec_dictionaries(188): Adding in variants from /tmp/tmp1waht2jg/info/recipe/conda_build_config.yaml
 compiling .pyc files...
 number of files: 49
 Fixing permissions
 INFO :: Time taken to mark (prefix)
-        0 replacements in 0 files was 0.04 seconds
+        0 replacements in 0 files was 0.03 seconds
 Package verification results:
 -----------------------------
 TEST START: /tmp/cq_build/linux-64/cadquery-TEST-py3.7.tar.bz2
-Adding in variants from /tmp/tmp9sa91q27/info/recipe/conda_build_config.yaml
-/tmp/tmpsqga0it_/cadquery-TEST-py3.7.tar.bz2: C1115 Found invalid license "None" in info/index.json
-INFO:conda_build.variants:Adding in variants from /tmp/tmp9sa91q27/info/recipe/conda_build_config.yaml
-INFO conda_build.variants:_combine_spec_dictionaries(188): Adding in variants from /tmp/tmp9sa91q27/info/recipe/conda_build_config.yaml
-Renaming work directory,  /tmp/cq_build/cadquery_1584669204934/work  to  /tmp/cq_build/cadquery_1584669204934/work_moved_cadquery-TEST-py3.7_linux-64
+Adding in variants from /tmp/tmp1waht2jg/info/recipe/conda_build_config.yaml
+Renaming work directory,  /tmp/cq_build/cadquery_1584718539456/work  to  /tmp/cq_build/cadquery_1584718539456/work_moved_cadquery-TEST-py3.7_linux-64
 Collecting package metadata (repodata.json): ...working... done
-Solving environment: ...working... done
+Solving environment: ...working... 
+Building graph of deps:   0%|          | 0/7 [00:00<?, ?it/s]
+Examining python[version='>=3.7,<3.8.0a0']:   0%|          | 0/7 [00:00<?, ?it/s]
+Examining @/linux-64::__glibc==2.31=0:  14%|█▍        | 1/7 [00:00<00:00, 24.46it/s]
+Examining pytest:  29%|██▊       | 2/7 [00:00<00:00, 48.78it/s]                     
+Examining @/linux-64::__cuda==10.2=0:  43%|████▎     | 3/7 [00:01<00:02,  1.78it/s]
+Examining @/linux-64::__cuda==10.2=0:  57%|█████▋    | 4/7 [00:01<00:01,  2.38it/s]
+Examining cadquery==TEST=py3.7:  57%|█████▋    | 4/7 [00:01<00:01,  2.38it/s]      
+Examining pythonocc-core=7.4:  71%|███████▏  | 5/7 [00:01<00:00,  2.38it/s]  
+Examining pyparsing=2:  86%|████████▌ | 6/7 [00:01<00:00,  2.38it/s]       
+                                                                    
 
-## Package Plan ##
+Determining conflicts:   0%|          | 0/7 [00:00<?, ?it/s]
+Examining conflict for python pytest cadquery pythonocc-core pyparsing:   0%|          | 0/7 [00:00<?, ?it/s]
+Examining conflict for python pythonocc-core:  14%|█▍        | 1/7 [00:00<00:00, 14.38it/s]                  
+Examining conflict for python pyparsing pytest:  29%|██▊       | 2/7 [00:00<00:00, 24.20it/s]
+Examining conflict for python pytest:  43%|████▎     | 3/7 [00:00<00:00, 20.47it/s]          
+Examining conflict for python pytest:  57%|█████▋    | 4/7 [00:00<00:00, 27.29it/s]
+Examining conflict for pythonocc-core pytest:  57%|█████▋    | 4/7 [00:00<00:00, 27.29it/s]
+Examining conflict for pyparsing cadquery pytest:  71%|███████▏  | 5/7 [00:00<00:00, 27.29it/s]
+Examining conflict for __cuda:  86%|████████▌ | 6/7 [00:00<00:00, 27.29it/s]                   
+Examining conflict for __cuda: 100%|██████████| 7/7 [00:00<00:00, 25.19it/s]
+Examining conflict for cadquery pythonocc-core: 100%|██████████| 7/7 [00:00<00:00, 25.19it/s]
+                                                                                             
+Found conflicts! Looking for incompatible packages.
+This can take several minutes.  Press CTRL-C to abort.
+failed
 
-  environment location: /tmp/cq_build/cadquery_1584669204934/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
-
-
-The following NEW packages will be INSTALLED:
-
-    _libgcc_mutex:      0.1-conda_forge           conda-forge         
-    _openmp_mutex:      4.5-0_gnu                 conda-forge         
-    attrs:              19.3.0-py_0               conda-forge         
-    ca-certificates:    2019.11.28-hecc5488_0     conda-forge         
-    cadquery:           TEST-py3.7                file:///tmp/cq_build
-    certifi:            2019.11.28-py37hc8dfbb8_1 conda-forge         
-    fontconfig:         2.13.1-h86ecdb6_1001      conda-forge         
-    freetype:           2.10.1-he06d7ca_0         conda-forge         
-    icu:                64.2-he1b5a44_1           conda-forge         
-    importlib-metadata: 1.5.0-py37hc8dfbb8_1      conda-forge         
-    importlib_metadata: 1.5.0-1                   conda-forge         
-    ld_impl_linux-64:   2.34-h53a641e_0           conda-forge         
-    libffi:             3.2.1-he1b5a44_1007       conda-forge         
-    libgcc-ng:          9.2.0-h24d8f2e_2          conda-forge         
-    libgomp:            9.2.0-h24d8f2e_2          conda-forge         
-    libiconv:           1.15-h516909a_1006        conda-forge         
-    libpng:             1.6.37-hed695b0_1         conda-forge         
-    libstdcxx-ng:       9.2.0-hdf63c60_2          conda-forge         
-    libuuid:            2.32.1-h14c3975_1000      conda-forge         
-    libxcb:             1.13-h14c3975_1002        conda-forge         
-    libxml2:            2.9.10-hee79883_0         conda-forge         
-    more-itertools:     8.2.0-py_0                conda-forge         
-    ncurses:            6.1-hf484d3e_1002         conda-forge         
-    occt:               7.4.0-h9121d39_2          conda-forge         
-    openssl:            1.1.1e-h516909a_0         conda-forge         
-    packaging:          20.1-py_0                 conda-forge         
-    pip:                20.0.2-py_2               conda-forge         
-    pluggy:             0.13.0-py37_0             conda-forge         
-    pthread-stubs:      0.4-h14c3975_1001         conda-forge         
-    py:                 1.8.1-py_0                conda-forge         
-    pyparsing:          2.4.6-py_0                conda-forge         
-    pytest:             5.4.1-py37hc8dfbb8_0      conda-forge         
-    python:             3.7.6-h357f687_4_cpython  conda-forge         
-    python_abi:         3.7-1_cp37m               conda-forge         
-    pythonocc-core:     7.4.0-py37h8e684b0_0      conda-forge         
-    readline:           8.0-hf8c457e_0            conda-forge         
-    setuptools:         46.0.0-py37hc8dfbb8_2     conda-forge         
-    six:                1.14.0-py_1               conda-forge         
-    sqlite:             3.30.1-hcee41ef_0         conda-forge         
-    tbb:                2020.1-hc9558a2_0         conda-forge         
-    tk:                 8.6.10-hed695b0_0         conda-forge         
-    wcwidth:            0.1.8-py_0                conda-forge         
-    wheel:              0.34.2-py_1               conda-forge         
-    xorg-kbproto:       1.0.7-h14c3975_1002       conda-forge         
-    xorg-libice:        1.0.10-h516909a_0         conda-forge         
-    xorg-libsm:         1.2.3-h84519dc_1000       conda-forge         
-    xorg-libx11:        1.6.9-h516909a_0          conda-forge         
-    xorg-libxau:        1.0.9-h14c3975_0          conda-forge         
-    xorg-libxdmcp:      1.1.3-h516909a_0          conda-forge         
-    xorg-libxt:         1.2.0-h516909a_0          conda-forge         
-    xorg-xproto:        7.0.31-h14c3975_1007      conda-forge         
-    xz:                 5.2.4-h14c3975_1001       conda-forge         
-    zipp:               3.1.0-py_0                conda-forge         
-    zlib:               1.2.11-h516909a_1006      conda-forge         
-
-Preparing transaction: ...working... done
-Verifying transaction: ...working... done
-Executing transaction: ...working... done
-+ pytest -v
-export PREFIX=/tmp/cq_build/cadquery_1584669204934/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
-export SRC_DIR=/tmp/cq_build/cadquery_1584669204934/test_tmp
-============================= test session starts ==============================
-platform linux -- Python 3.7.6, pytest-5.4.1, py-1.8.1, pluggy-0.13.0 -- $PREFIX/bin/python
-cachedir: .pytest_cache
-rootdir: $SRC_DIR
-collecting ... collected 0 items / 8 errors
-
-==================================== ERRORS ====================================
-__________________ ERROR collecting tests/test_cad_objects.py __________________
-ImportError while importing test module '$SRC_DIR/tests/test_cad_objects.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-___________________ ERROR collecting tests/test_cadquery.py ____________________
-ImportError while importing test module '$SRC_DIR/tests/test_cadquery.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-_____________________ ERROR collecting tests/test_cqgi.py ______________________
-ImportError while importing test module '$SRC_DIR/tests/test_cqgi.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-___________________ ERROR collecting tests/test_exporters.py ___________________
-ImportError while importing test module '$SRC_DIR/tests/test_exporters.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-___________________ ERROR collecting tests/test_importers.py ___________________
-ImportError while importing test module '$SRC_DIR/tests/test_importers.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-____________________ ERROR collecting tests/test_jupyter.py ____________________
-ImportError while importing test module '$SRC_DIR/tests/test_jupyter.py'.
-Hint: make sure your test modules/packages have valid Python names.
+failed to get install actions, retrying.  exception was: Unsatisfiable dependencies for platform linux-64: {'feature:/linux-64::__cuda==10.2=0', 'feature:|@/linux-64::__cuda==10.2=0'}
+WARNING:conda_build.build:failed to get install actions, retrying.  exception was: Unsatisfiable dependencies for platform linux-64: {'feature:/linux-64::__cuda==10.2=0', 'feature:|@/linux-64::__cuda==10.2=0'}
+WARNING conda_build.build:test(2661): failed to get install actions, retrying.  exception was: Unsatisfiable dependencies for platform linux-64: {'feature:/linux-64::__cuda==10.2=0', 'feature:|@/linux-64::__cuda==10.2=0'}
 Tests failed for cadquery-TEST-py3.7.tar.bz2 - moving package to /tmp/cq_build/broken
 WARNING:conda_build.build:Tests failed for cadquery-TEST-py3.7.tar.bz2 - moving package to /tmp/cq_build/broken
 WARNING conda_build.build:tests_failed(2755): Tests failed for cadquery-TEST-py3.7.tar.bz2 - moving package to /tmp/cq_build/broken
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-___________________ ERROR collecting tests/test_selectors.py ___________________
-ImportError while importing test module '$SRC_DIR/tests/test_selectors.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-__________________ ERROR collecting tests/test_workplanes.py ___________________
-ImportError while importing test module '$SRC_DIR/tests/test_workplanes.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-tests/__init__.py:1: in <module>
-    from cadquery import *
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/__init__.py:3: in <module>
-    from .occ_impl.shapes import (
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/cadquery/occ_impl/shapes.py:99: in <module>
-    from OCC.Core.BRepFilletAPI import BRepFilletAPI_MakeChamfer, BRepFilletAPI_MakeFillet
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/lib/python3.7/site-packages/OCC/Core/BRepFilletAPI.py:18: in <module>
-    from . import _BRepFilletAPI
-E   ImportError: $PREFIX/lib/python3.7/site-packages/OCC/Core/_BRepFilletAPI.so: undefined symbol: _ZNK20BRepBlend_AppSurface10TolReachedERdS0_
-=========================== short test summary info ============================
-ERROR tests/test_cad_objects.py
-ERROR tests/test_cadquery.py
-ERROR tests/test_cqgi.py
-ERROR tests/test_exporters.py
-ERROR tests/test_importers.py
-ERROR tests/test_jupyter.py
-ERROR tests/test_selectors.py
-ERROR tests/test_workplanes.py
-!!!!!!!!!!!!!!!!!!! Interrupted: 8 errors during collection !!!!!!!!!!!!!!!!!!!!
-============================== 8 errors in 0.57s ===============================
 TESTS FAILED: cadquery-TEST-py3.7.tar.bz2
