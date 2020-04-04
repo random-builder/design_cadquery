@@ -3,6 +3,6 @@ build/
 doc/_build/*
 dist/*
 .idea/*
-cadquery.egg-info
+*.egg-info
 target/*
 .vscode
